@@ -1,17 +1,17 @@
 # Conference branding assets
 
-Replace these placeholders when the SPHERIC 2028 logo and wordmark are ready.
+Vector logo rebuilt from the Keynote shapes on slide 1 of `logo/spheric2028-logo-ideas.key`.
 
-## Logo
+## Files
 
-- File: `logo.svg` (or add `logo.png` / `logo.webp` and update the `<img>` in `index.html`)
-- Recommended: square mark, transparent background, works on the blue hero and light footer
-- The site uses `currentColor` styling on the SVG placeholder; a real logo can be a full-colour asset
+- `logo.svg` — colour mark (blue dots + wordmark). Use on white or light backgrounds.
+- `logo-inverse.svg` — white mark. Use on the blue hero (or any dark field).
+- `logo.pdf` — Keynote export of the first slide (reference only)
+- `monash-logo.png` — Monash wordmark for light backgrounds
+- `monash-logo-inverse.png` — white Monash wordmark for dark / blue fields
 
-## Favicon
+The header and footer use `logo.svg`. The hero uses `logo-inverse.svg`.
 
-- Update `../favicon.svg` (and optionally add `favicon.ico`) when branding is final
+## Replacing later
 
-## Host logos
-
-Footer slots in `index.html` (`#host-logos`) accept SPHERIC / Monash / sponsor images later. Keep heights around 40–48px for balance.
+Drop updated SVGs in this folder with the same filenames. Keep the inverse version white-on-transparent.

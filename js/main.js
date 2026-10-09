@@ -50,7 +50,6 @@
       .bindPopup("Monash University, Clayton campus")
       .openPopup();
 
-    /* Recalculate size if the section was laid out while hidden */
     setTimeout(function () {
       map.invalidateSize();
     }, 200);
