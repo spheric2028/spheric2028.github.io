@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SPHERIC 2028 · 21st SPHERIC World Conference · Monash Univerisity Clayton Campus, Melbourne, Australia</title>
+  <meta name="description" content="21st SPHERIC World Conference at Monash University, Melbourne, Australia, 12-15 December 2028. Training Day 11 December 2028.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="nav-bar">
+      <a class="brand" href="#top" aria-label="SPHERIC 2028 home">
+        <img class="brand-logo" src="assets/brand/logo.svg" width="38" height="38" alt="">
+        <span class="brand-text">
+          <small>World Conference</small>
+          SPHERIC 2028
+        </span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#dates">Dates</a></li>
+          <li><a href="#training">Training</a></li>
+          <li><a href="#programme">Programme</a></li>
+          <li><a href="#authors">Authors</a></li>
+          <li><a href="#venue">Venue</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-label="Conference introduction">
+      <div class="hero-inner">
+        <div class="hero-brand">
+          <img class="hero-logo" src="assets/brand/logo.svg" width="56" height="56" alt="">
+          <div>
+            <p class="eyebrow">SPHERIC goes Downunder</p>
+            <h1>SPHERIC World Conference 2028</h1>
+          </div>
+        </div>
+        <p class="hero-tagline">21st SPHERIC World Conference on Smoothed Particle Hydrodynamics</p>
+        <p class="hero-meta">
+          Monash University Clayton campus, Melbourne, Australia · 12-15 December 2028 · Training Day 11 December 2028
+        </p>
+        <a class="button" href="#dates">Important dates</a>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-inner prose">
+        <p class="section-label">About</p>
+        <h2>The global forum for SPH</h2>
+        <p class="lead">
+          The SPHERIC World Conference is the regular assembly of experts engaged in the study and
+          application of the smoothed particle hydrodynamics (SPH) method. In 2028 we are delighted to host the SPHERIC World Conference at Monash University in Melbourne, Australia.
+          Monash holds a special place in the history of SPH as the long-time home of Joe Monaghan, one of the founders of SPH.
+        </p>
+        <p>
+          Since it's early beginnings at Monash, SPH has found widespread application beyond astronomy and astrophysics, to solid mechanics,
+          geomechanics, manufacturing engineering, and related disciplines. Its meshless, particle-based
+          framework is well suited to free-surface and multiphase flows, highly nonlinear deformation,
+          fracture, fragmentation, and other complex physical phenomena.
+        </p>
+        <p>
+          We invite researchers, industry practitioners, and students from around the world
+          to join us as we share advances in fundamental SPH research and applications.
+        </p>
+        <ul class="topic-list">
+          <li>Fundamental SPH formulations, consistency, and convergence</li>
+          <li>Multiphase, free-surface, and industrial flow applications</li>
+          <li>Solids, structures, and fluid–structure interaction</li>
+          <li>High-performance computing and emerging data-driven methods</li>
+          <li>Progress against the SPHERIC Grand Challenges</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="audiences">
+      <div class="section-inner">
+        <p class="section-label">Who it’s for</p>
+        <h2>Industry, academia, and students</h2>
+        <p class="lead">The conference aims to cover the entire SPH community, from applied science and engineering to fundamental research.</p>
+        <div class="audience-grid">
+          <article class="audience-card">
+            <h3>Industry</h3>
+            <ul>
+              <li>Exchange with fellow practitioners and scientists</li>
+              <li>Discover methods and industrial applications</li>
+              <li>Share challenges and explore solutions</li>
+              <li>Find academic research partners</li>
+            </ul>
+          </article>
+          <article class="audience-card">
+            <h3>Academia</h3>
+            <ul>
+              <li>Discuss technical challenges and new results</li>
+              <li>Discover relevant topics and future directions</li>
+              <li>Connect with industry collaborators</li>
+              <li>Build partnerships for funded projects</li>
+            </ul>
+          </article>
+          <article class="audience-card">
+            <h3>Students</h3>
+            <ul>
+              <li>Present work to the international SPH community</li>
+              <li>Learn from leading researchers and practitioners</li>
+              <li>Explore careers spanning research and industry</li>
+              <li>Join the Training Day for hands-on foundations</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="dates">
+      <div class="section-inner">
+        <p class="section-label">Timeline</p>
+        <h2>Important dates</h2>
+        <p class="lead">Proposed dates for SPHERIC 2028 are as follows:</p>
+        <ol class="dates-list">
+          <li>
+            <time datetime="2027-12-01">1-4 Feb 2027</time>
+            <span class="milestone">Conference announcement at SPHERIC2027 in Rome</span>
+          </li>
+          <li>
+            <time datetime="2028-03-31">31 March 2028</time>
+            <span class="milestone">Abstract deadline</span>
+          </li>
+          <li>
+            <time datetime="2028-04-15">15 April 2028</time>
+            <span class="milestone">Abstract acceptance</span>
+          </li>
+          <li>
+            <time datetime="2028-09-30">30 September 2028</time>
+            <span class="milestone">Early-bird registration deadline</span>
+          </li>
+          <li>
+            <time datetime="2028-10-31">31 October 2028</time>
+            <span class="milestone">Presenter registration deadline</span>
+          </li>
+          <li>
+            <time datetime="2028-11-30">30 November 2028</time>
+            <span class="milestone">Late registration deadline</span>
+          </li>
+          <li>
+            <time datetime="2028-12-11">11 December 2028</time>
+            <span class="milestone">Training Day</span>
+          </li>
+          <li>
+            <time datetime="2028-12-12">12-15 December 2028</time>
+            <span class="milestone">Conference</span>
+          </li>
+        </ol>
+        <p class="dates-note">Dates are provisional and may be refined by the organising committee.</p>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="training">
+      <div class="section-inner prose">
+        <p class="section-label">Training Day</p>
+        <h2>Training Day — 11 December 2028</h2>
+        <p class="lead">
+          A one-day programme ahead of the main conference, suited to researchers who know the principles
+          of SPH and are building practical experience — and to experienced users who want to share methods.
+        </p>
+        <p>
+          The detailed schedule, venues, and registration fee will be published here when available.
+        </p>
+        <span class="tba">Programme to be announced</span>
+      </div>
+    </section>
+
+    <section class="section" id="programme">
+      <div class="section-inner">
+        <p class="section-label">Programme</p>
+        <h2>Programme and Keynote Speakers</h2>
+        <p class="lead">Keynote speakers and the full session programme will appear here after the scientific programme is confirmed.</p>
+        <div class="keynote-grid">
+          <div class="keynote-card">
+            <strong>Keynote 1</strong>
+            Speaker and title to be announced
+          </div>
+          <div class="keynote-card">
+            <strong>Keynote 2</strong>
+            Speaker and title to be announced
+          </div>
+          <div class="keynote-card">
+            <strong>Keynote 3</strong>
+            Speaker and title to be announced
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="authors">
+      <div class="section-inner">
+        <p class="section-label">Participate</p>
+        <h2>For authors &amp; registration</h2>
+        <div class="split-panels">
+          <article class="panel">
+            <h3>Authors</h3>
+            <p>
+              Instructions for extended abstracts, templates, and submission links will be posted when
+              the call opens. See the important dates above for the planned deadlines.
+            </p>
+            <span class="tba">Coming soon</span>
+          </article>
+          <article class="panel">
+            <h3>Registration</h3>
+            <p>
+              Fees, packages (Training Day and/or conference), and the registration portal will be
+              announced closer to the early-bird deadline. We are working to keep costs as affordable as possible.
+            </p>
+            <span class="tba">Coming soon</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="venue">
+      <div class="section-inner">
+        <p class="section-label">Venue</p>
+        <h2>Monash University, Clayton</h2>
+        <p class="lead">Melbourne’s largest university campus, about 20&nbsp;km south-east of the city centre.</p>
+        <div class="venue-layout">
+          <div class="venue-details">
+            <h3>Location</h3>
+            <p>
+              Wellington Road<br>
+              Clayton VIC 3800<br>
+              Australia
+            </p>
+            <p>
+              Building and room details will be confirmed closer to the event.
+              Fly into Melbourne Airport (MEL).
+            </p>
+            <a class="map-link" href="https://www.openstreetmap.org/?mlat=-37.9108&amp;mlon=145.1348#map=15/-37.9108/145.1348" rel="noopener noreferrer" target="_blank">
+              Open in OpenStreetMap
+            </a>
+            <span class="tba">Building TBA</span>
+          </div>
+          <div class="map-wrap" role="region" aria-label="Map of Monash University Clayton campus">
+            <div id="venue-map"></div>
+          </div>
+        </div>
+        <div class="travel-block">
+          <h3>How to get here</h3>
+          <p>
+            The cheapest way is to take the SkyBus from the airport to Southern Cross Station,
+            jump on a train to Huntingdale (Pakenham / Cranbourne line), then catch the 601
+            shuttle bus from Huntingdale station to the campus. Total cost around $25.
+            Check the <a href="https://www.ptv.vic.gov.au/journey">PTV website</a> for details.
+          </p>
+          <p>
+            The fastest way is a taxi or rideshare, but it will cost you around $120.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="contact">
+      <div class="section-inner">
+        <p class="section-label">Contact</p>
+        <h2>Get in touch</h2>
+        <p class="lead">Questions about SPHERIC 2028 can be sent to the organising committee.</p>
+        <div class="contact-block">
+          <a href="mailto:spheric2028@monash.edu">spheric2028@monash.edu</a>
+          <span>Provisional contact address — update when the committee mailbox is confirmed.</span>
+        </div>
+        <div class="host-logos" id="host-logos" aria-label="Host and partner logos">
+          <div class="host-logo-slot">SPHERIC</div>
+          <div class="host-logo-slot">Monash</div>
+          <div class="host-logo-slot">Logo</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>© SPHERIC 2028 · Monash University, Clayton</span>
+      <span>21st SPHERIC World Conference · 11-15 December 2028</span>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
